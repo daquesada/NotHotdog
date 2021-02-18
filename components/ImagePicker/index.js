@@ -26,9 +26,10 @@ export const ImagePickerComponent = ({setReconigtion, setSource}) => {
     const options = {};
     ImagePicker.launchImageLibrary(options, (res) => {
       if (res.error) {
+        console.log(res.error);
         alert('Sorry, we need camera roll permissions to make this work!');
       } else if (res.didCancel) {
-        alert('Select an image!');
+        alert('Select an image!!!');
       } else if (res.customButton) {
         alert('Select an image!');
       } else {
@@ -58,6 +59,7 @@ export const ImagePickerComponent = ({setReconigtion, setSource}) => {
     const options = {};
     ImagePicker.launchCamera(options, (res) => {
       if (res.error) {
+        console.log(res.error);
         alert('Sorry, we need camera roll permissions to make this work!');
       } else if (res.didCancel) {
         alert('Select an image!');
