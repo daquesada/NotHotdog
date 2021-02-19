@@ -24,3 +24,10 @@ npm run android
 cd android
 ./gradlew bundleRelease
 ```
+
+## Or
+
+```cmd
+cd android
+./gradlew assembleRelease
+```
