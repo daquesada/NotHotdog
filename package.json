@@ -7,14 +7,13 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build:android":"cd android && gradlew assembleRelease"
   },
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.4",
-    "react-native-elements": "^3.2.0",
     "react-native-image-picker": "^2.3.0",
-    "react-native-vector-icons": "^8.0.0",
     "tflite-react-native": "0.0.5"
   },
   "devDependencies": {
