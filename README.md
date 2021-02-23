@@ -1,6 +1,7 @@
 # NotHotdog
 
 This application allows you to verify if an image is a Hotdog or not.
+Idea taken from [Udemy](https://www.udemy.com/course/react-native-deep-learning/)
 
 ## Execute
 
@@ -30,4 +31,10 @@ cd android
 ```cmd
 cd android
 ./gradlew assembleRelease
+```
+
+## apk
+
+```cmd
+android/app/build/outputs/apk/release
 ```
